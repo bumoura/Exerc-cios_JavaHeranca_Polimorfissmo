@@ -1,13 +1,9 @@
-//Gerente é um funcionario. Gerente herda da classe Funcionario
+//Gerente Ã© um funcionario. Gerente herda da classe Funcionario
 public class EditorVideo extends Funcionario {
-	
-	
-	public double getBonificação() {
-		System.out.println("Chamando método de bonificação Editor de vídeo");
-		return  150;
-	}
-	
 
-	
+	public double getBonificaÃ§Ã£o() {
+		System.out.println("Chamando mÃ©todo de bonificaÃ§Ã£o Editor de vÃ­deo");
+		return 150;
+	}
 
 }

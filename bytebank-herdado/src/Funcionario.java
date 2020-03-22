@@ -1,36 +1,35 @@
-// N„o pode instanciar dessa classe, pois ela È abstrata 
+// N√£o pode instanciar dessa classe, pois ela √© abstrata 
 public abstract class Funcionario {
-	
+
 	private String nome;
 	private String cpf;
 	private double salario;
 
-	
-	//MÈtodo sem corpo, n„o h· implementaÁ„o
-	public abstract double getBonificaÁ„o();
-	
-	
+	// M√©todo sem corpo, n√£o h√° implementa√ß√£o
+	public abstract double getBonifica√ß√£o();
+
 	public String getNome() {
 		return nome;
 	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
 	public String getCpf() {
 		return cpf;
 	}
+
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
+
 	public double getSalario() {
 		return salario;
 	}
+
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
-	
-	
-	
-	
 
 }
